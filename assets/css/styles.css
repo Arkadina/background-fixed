@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 10vh;
+  background-color: #1b1b1b;
+  padding: 1.3rem 0rem;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  z-index: 99;
+}
+header img {
+  width: 80px;
+  height: 80px;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+header ul li a:hover {
+  font-size: 2.5rem;
+}
+
+.main-section {
+  height: 100vh;
+  background-color: #1b1b1b;
+  background: url("https://res.cloudinary.com/codier/image/upload/v1610509461/s6tx81ata2tal3epwnu3.jpg") no-repeat right 100px/100% 100% fixed;
+}
+
+.second-section {
+  background: url("https://res.cloudinary.com/codier/image/upload/v1610554675/ck7p6ahhuriv9n9wajxb.jpg") no-repeat center/100% 100% fixed;
+  height: 1000px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #1b1b1b;
+}
+footer p {
+  font-size: 1.5rem;
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */
